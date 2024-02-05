@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+table,
+th,
+td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+table {
+  border-collapse: collapse;
+}
+
+.header {
+  height: 46px;
+  font-size: 14px;
+
+  background: rgb(22, 22, 22);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  height: 20px;
+  margin-top: 10px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 46px;
+  padding: 0 22px;
+  display: block;
+}
+
+#navbar li {
+  position: relative;
+}
+
+#navbar > li {
+  display: inline-block;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  max-width: 98%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+input[type="text"],
+select {
+  width: 95%;
+  padding: 12px 15px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgb(224, 224, 224);
+  background-image: url("./Images/icons8_search_30px.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.button {
+  background-color: rgb(15, 98, 254);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.first-table {
+  width: 70%;
+}
+
+.second-table {
+  width: 40%;
+}
+
+.first-table-content {
+  padding-left: 20px;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.second-container {
+  margin-top: 20px;
+}
+
+.second-table-container {
+  margin-top: 20px;
+  max-width: 98%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.second-container-content {
+  color: rgb(112, 161, 250);
+  margin-top: 10px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
